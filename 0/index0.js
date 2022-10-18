@@ -10,7 +10,6 @@ const server = http.createServer((req,res)=>{
     }
     else
     {
-        console.log("kishan");
         res.end("error");
     }
     
