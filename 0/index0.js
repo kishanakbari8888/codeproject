@@ -10,7 +10,7 @@ const server = http.createServer((req,res)=>{
     }
     else
     {
-        res.end("eror");
+        res.end("error");
     }
     
 });
