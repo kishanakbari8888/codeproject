@@ -10,11 +10,11 @@ const server = http.createServer((req,res)=>{
     }
     else
     {
-        res.end("error");
+        res.end("eror");
     }
     
 });
 
-console.log("*--");
+console.log("*++-");
 
 server.listen(2000);
